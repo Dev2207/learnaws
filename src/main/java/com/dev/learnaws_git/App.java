@@ -1,5 +1,6 @@
 package com.dev.learnaws_git;
 
+import com.dev.appln.Test;
 /**
  * Hello world!
  *
@@ -8,6 +9,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello Git!" );
+    		Test test = new Test();
+        test.printHelloGit();
     }
 }
